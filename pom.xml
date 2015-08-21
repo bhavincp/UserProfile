@@ -94,7 +94,7 @@
 							<include>**/*.jsp</include> </includes> </resource> <resource> <directory>src/main/resources/spring</directory> 
 							<targetPath>WEB-INF/spring/</targetPath> </resource -->
 					</webResources>
-					<bundleFileName>${war-file-name}</bundleFileName>
+					<!-- <bundleFileName>${war-file-name}</bundleFileName> -->
 				</configuration>
 			</plugin>
 
